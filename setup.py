@@ -13,12 +13,12 @@ def get_long_description():
 
 
 setup(
-    name="datasette-show-erors",
+    name="datasette-show-errors",
     description="Datasette plugin for displaying error tracebacks",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
     author="Simon Willison",
-    url="https://github.com/simonw/datasette-show-erors",
+    url="https://github.com/simonw/datasette-show-errors",
     license="Apache License, Version 2.0",
     version=VERSION,
     entry_points={"datasette": ["show_errors = datasette_show_errors"]},
