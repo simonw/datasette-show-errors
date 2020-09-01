@@ -6,6 +6,8 @@
 
 Datasette plugin for displaying error tracebacks.
 
+**This plugin does not work with current versions of Datasette.** See [issue #2](https://github.com/simonw/datasette-show-errors/issues/2).
+
 ## Installation
 
     pip install datasette-show-errors
